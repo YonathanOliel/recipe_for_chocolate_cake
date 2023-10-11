@@ -1,0 +1,113 @@
+body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+div.interiorWindowDesign{
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+div.biography{
+    text-align: center;
+    display: inline block;
+    font-size: 15px;
+}
+div.divider{
+    width: 130px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    width: 100%;
+}
+.tableInformation{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 80px;
+}
+.tableInformation td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+.tableInformation th{
+    text-align: center;
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 5px;
+}
+div.information{
+    position: relative;
+}
+div.column1, div.column2{
+    width: 45%;
+
+}
+div.column1{
+   display: inline-block;
+   margin-right: 10%;
+
+}
+div.column2{
+    float: right;
+   
+
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom:5px solid #6C829D;
+    padding-bottom: 5px;
+
+  
+}
+div.components p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+
+}
+table.preparation p.number{
+    background-color: #6C829D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+table.preparation td{
+    vertical-align: top;
+}
+table.preparation td.textFormatting{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+table.preparation tr{
+    height: 40px;
+  
+}
+
+*{
+    overflow: auto;
+}
